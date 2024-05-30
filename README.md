@@ -8,3 +8,5 @@ The objective of this workshop is to practice the basic Python concepts reviewed
 
 * [Point 1 : The IMC](elIMC)
 * [Point 2 : Leap years](añosBisiestos)
+* [Point 3 : Do you divide me?](meDivide)
+* [Point 4 : Classifying words](clasificandoPalabras)
