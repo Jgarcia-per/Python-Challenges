@@ -1,0 +1,2 @@
+### Punto 1 | El nuevo UML
+A partir del enunciado construya un nuevo UML que refleje los cambios propuestos en el enunciado en la guardería, para hacer un UML puede usar herramientas específicas como [Lucidchart](https://www.lucidchart.com/pages/es) o [draw.io (diagrams.net)](https://app.diagrams.net/), o simplemente hacerlas en Powerpoint o Paint.
