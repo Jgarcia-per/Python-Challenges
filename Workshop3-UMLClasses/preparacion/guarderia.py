@@ -3,3 +3,6 @@ class Guarderia:
         self.__nombre = nombre
         self.__ubiacion = ubicacion
         self.__concentrado = concentrado
+
+    def get_nombre_guarderia (self) -> str :
+        return self.__nombre

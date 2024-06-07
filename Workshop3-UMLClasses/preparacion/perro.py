@@ -14,5 +14,8 @@ class Perro:
     def modificar_peso(self, nuevo_peso):
         self.peso = nuevo_peso
 
-    def dar_nombre_perro(self) -> str:
+    def get_nombre_perro(self) -> str:
         return self.__nombre
+    
+    def get_concentrado_favorito(self) -> str:
+        return self.__concentrado
