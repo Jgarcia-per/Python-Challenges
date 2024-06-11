@@ -1,0 +1,2 @@
+### Punto 2 | El Concentrado
+En un archivo concentrado.py construya la clase de concentrado. Recuerde que cada concentrado tiene un nombre, un precio, un número de calorías y un registro INVIMA. Por disposición gubernamental, el registro INVIMA es privado y NO debe tener un getter. No olvide incluir las 2 funciones del enunciado y todos los atributos ya descritos. 
