@@ -33,5 +33,17 @@ The Nursery will have a list of the different concentrates available, while each
 
 * [Point 1 : The new UML](Workshop3-UMLClasses/nuevoUML/Diagrama_Guarderia.png)
 * [Point 2 : The concentrate](Workshop3-UMLClasses/concentrado/concentrado.py)
-* [Point 2 :  Modify Nursery and Dog](Workshop3-UMLClasses/preparacion)
+* [Point 3 :  Modify Nursery and Dog](Workshop3-UMLClasses/preparacion)
 
+### Workshop 3 - Heritage (POO)
+The objective of this workshop is to practice the basic Python concepts reviewed in the previous class. Each exercise will allow you to put into practice the concepts seen in the previous slides. Remember to put into practice the good programming practices discussed in the course. Comment and give meaningful names to functions and variables to make your code clear.
+
+* [Point 0 : Preparation](Workshop4-HeritagePOO/preparacion)
+
+#### Statement
+
+Now we want to model two animals considered exotic, a Boa Constrictor and a Ferret. For this it is necessary to build a new exotic animal class, which includes the new attributes country_origin (str) and taxes (float). In addition to a new method called calculate_flete that multiplies the taxes by the weight of the animal to know what is the cost of importing this animal. The Boa Constrictor and the Ferret must have their own classes, the Boa makes the sound “Tsss!” while the Ferret makes “Eek Eek!”. Additionally, the Boa must have an attribute that allows it to count how many mice it has eaten, as well as a method that adds a mouse to that count. The Ferret must have no additional attributes or methods.
+
+* [Point 1 : The new UML](Workshop4-HeritagePOO/nuevoUML/Diagrama_Guarderia.png)
+* [Point 2 : Exotic Animal](Workshop4-HeritagePOO/animalExotico/animal_exotico.py)
+* [Point 3 : Ferrets and Boa Constrictors](Workshop4-HeritagePOO/huronesyBoas)
