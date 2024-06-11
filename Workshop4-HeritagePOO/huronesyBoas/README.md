@@ -1,0 +1,2 @@
+### Punto 3 | Hurones y Boas Constrictor
+A partir del enunciado construya las clases Huron y Boa_Constrictor. Recuerde que estas dos clases deben heredar a partir de la clase Animal_Exotico definida en el punto anterior. No olvide redefinir el método de hacer_sonido según el sonido hecho por cada animal, y recuerde que la Boa Constrictor tiene atributos y métodos adicionales a los definidos por ser animal exótico
