@@ -8,3 +8,9 @@ class Concentrado:
 
     def get_nombre_concentrado(self) -> str:
         return self.__nombre
+    
+    def get_precio_concentrado(self) -> float:
+        return self.__precio
+    
+    def get_numeroCalorias_concentrado(self) -> float:
+        return self.__numero_calorias

@@ -23,7 +23,26 @@ perro_3 = Perro("Manchas", "Dálmata", 20, 1, "EvolveEvolve 8")
 perro_4 = Perro("Mateo", "Golden retriever", 32.5, 4, "AcanaAcana 5")
 perro_5 = Perro("Rufus", "West Highland white terrier", 10.5, 3, "Agility GoldAgility Gold 6")
 
-# concdicional basico
-perro_guarderia = str(input('Ingrese el nombre del perro al que le quiera buscar una guarderia'))
+# Hacemos que perro_1 ladre
+print(f'\n\n {perro_1.get_nombre_perro()} dice {perro_1.ladrar()} ya que vio su concentrado favorito, el cual es {perro_1.get_concentrado_favorito()}\n\n')
 
-# if (perro_guarderia == )
+# Hacemos una tabla
+nombre_tabla = max(len(str(nombre)) for nombre in perro_1.get_nombre_perro()) 
+raza_tabla = max(len(str(raza)) for raza in perro_1.get_raza_perro())
+concentrado_tabla = max(len(str(concentrado)) for concentrado in concentrado_7.get_nombre_concentrado())
+calorias_tabla = max(len(str(numeroCalorias)) for numeroCalorias in str(concentrado_7.get_numeroCalorias_concentrado()))
+
+# empeazar tabla
+print('-' * 71)
+
+# Encabezados de la tabla
+print(f"| {'Nombre'.ljust(nombre_tabla)} |  {'Raza'.ljust(raza_tabla)}   | {'Concentrado'.ljust(concentrado_tabla)}                 | {'Numero de Calorias'.ljust(calorias_tabla)} |")
+
+# Separador de la tabla
+print('-' * 71)
+
+# Filas de la tabla
+print(f"| {perro_1.get_nombre_perro().ljust(nombre_tabla)}   | {perro_1.get_raza_perro().ljust(raza_tabla)} | {concentrado_7.get_nombre_concentrado().ljust(concentrado_tabla)} | {str(concentrado_7.get_numeroCalorias_concentrado()).ljust(calorias_tabla)}               |")
+
+# fin tabla
+print('-' * 71)

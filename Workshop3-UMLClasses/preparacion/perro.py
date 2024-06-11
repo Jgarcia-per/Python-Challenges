@@ -19,3 +19,6 @@ class Perro:
     
     def get_concentrado_favorito(self) -> str:
         return self.__concentrado
+    
+    def get_raza_perro (self) -> str:
+        return self.__raza
