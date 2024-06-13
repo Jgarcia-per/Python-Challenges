@@ -31,11 +31,13 @@ def rentabilidad(producto1: dict, producto2: dict, producto3: dict, precio_total
 
     return rentabilidad
 
+def mejor_producto(producto1: dict, producto2: dict, producto3: dict, producto4: dict):
+    productos = [producto1, producto2, producto3, producto4]
+    mejorRentabilidad = productos[0]
 
-producto1 = {"nombre": "Helado de Fresa", "precio": 1200}
-producto2 ={"nombre": "Chispas de chocolate", "precio": 500}
-producto3 = {"nombre": "Mani Japonés", "precio": 900}
+    for producto in productos:
+        if producto['rentabilidad'] > mejorRentabilidad['rentabilidad']:
+            mejorRentabilidad = producto
 
-costo = rentabilidad(producto1, producto2, producto3, 7500)
-print(f"la restabilidad fue de ${costo}")
+    return mejorRentabilidad['nombre']
 
