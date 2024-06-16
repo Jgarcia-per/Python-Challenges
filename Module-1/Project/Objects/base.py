@@ -1,4 +1,4 @@
-from ingrediente import Ingrediente
+from .ingrediente import Ingrediente
 
 class Base(Ingrediente):
     def __init__(self, nombre, precio, calorias, inventario, es_vegetariano, sabor):

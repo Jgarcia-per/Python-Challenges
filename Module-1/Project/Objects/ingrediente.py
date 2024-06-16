@@ -8,7 +8,6 @@ class Ingrediente(ABC):
         self._inventario = inventario
         self._es_vegetariano = es_vegetariano
     
-    # Getters
     def get_nombre(self):
         return self._nombre
     
@@ -24,7 +23,6 @@ class Ingrediente(ABC):
     def get_es_vegetariano(self):
         return self._es_vegetariano
     
-    # Setters
     def set_nombre(self, nombre):
         self._nombre = nombre
     
