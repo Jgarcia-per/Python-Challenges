@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Perro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Información de los Perros</h1>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Raza</th>
+        </tr>
+        {% for perro in perros %}
+        <tr>
+            <td>{{ perro.get_nombre_perro()}}</td>
+            <td>{{ perro.get_edad_perro()}}</td>
+            <td>{{ perro.get_raza_perro()}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
