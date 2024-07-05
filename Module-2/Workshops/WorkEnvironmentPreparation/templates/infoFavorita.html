@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Información de La Favorita{% endblock %}
+
+{% block content %}
+    <h1>Información de La Favorita</h1>
+    
+    <h2>Guardería</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ guarderia.id_guarderia}}</td>
+                <td>{{ guarderia.nombre }}</td>
+                <td>{{ guarderia.dirrecion }}</td>
+                <td>{{ guarderia.telefono }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Perros</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Raza</th>
+                <th>Edad</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for perro in perros %}
+            <tr>
+                <td>{{ perro.id_perro }}</td>
+                <td>{{ perro.nombre }}</td>
+                <td>{{ perro.raza }}</td>
+                <td>{{ perro.edad }}</td>
+                <td>{{ perro.peso }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Cuidadores</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for cuidador in cuidadores %}
+            <tr>
+                <td>{{ cuidador.id_cuidadores }}</td>
+                <td>{{ cuidador.nombre }}</td>
+                <td>{{ cuidador.telefono }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
